@@ -1,0 +1,48 @@
+# === Python & Cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.ipynb_checkpoints
+
+# === Virtual Environments ===
+.env/
+.venv/
+env/
+venv/
+
+# === IDE & Editor Configs ===
+.vscode/
+*.code-workspace
+*.swp
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === Large Files & Data ===
+
+*.npy
+*.h5
+*.pth
+*.pt
+
+# === Project-Specific Folders ===
+/1_Stock_Data/
+/2_Cleaned_Data/
+/3_Reference_Data/
+/4_Final_Data/
+/5_Split_Data/
+/6_Sliding_Window/
+/7_LSTT_Embeddings/
+/8_HGAT_Embeddings/
+/9_Fused_Embeddings/
+/10_No_sector_HGAT_Embeddings/
+/Daily_Predictions/
+/test_data_final/
+/test_fusion_embeddings_daywise/
+/test_hgat_embeddings_daywise/
+/test_lstt_embeddings_daywise/
+/test_window_daywise/
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
